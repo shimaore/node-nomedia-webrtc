@@ -1,0 +1,30 @@
+{
+  "name": "nomedia-webrtc",
+  "version": "0.1.0",
+  "description": "WebRTC interface that provides fake media",
+  "main": "index.js",
+  "scripts": {
+    "prepublish": "coffee -m -c index.coffee.md",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shimaore/node-nomedia-webrtc.git"
+  },
+  "author": "Stéphane Alnet <stephane@shimaore.net> (http://shimaore.net/)",
+  "license": "unlicense",
+  "keywords": [
+    "mediaproxy",
+    "RTP",
+    "WebRTC"
+  ],
+  "devDependencies": {
+    "coffee-script": "~1.6.3",
+    "rtc-peer-connection": "~0.1.1",
+    "rtc-session-description": "0.0.1"
+  },
+  "dependencies": {
+    "rtc-peer-connection": "~0.1.1",
+    "rtc-session-description": "0.0.1"
+  }
+}
