@@ -1,6 +1,8 @@
 NoMedia
 =======
 
+    uuid = require 'uuid'
+
     class NoMediaStream
 
       constructor: (@constraints) ->
