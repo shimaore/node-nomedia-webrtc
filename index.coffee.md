@@ -25,6 +25,9 @@ NoMedia
       #  etc.: not implemented
       #  Doesn't look like we're using any other attribute.
 
+      description: ->
+        @constraints.description
+
     module.exports =
       getUserMedia: (constraints,success,failure) ->
         media = new NoMediaStream constraints
