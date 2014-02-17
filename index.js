@@ -20,6 +20,10 @@
 
     NoMediaStream.prototype.stop = function() {};
 
+    NoMediaStream.prototype.description = function() {
+      return this.constraints.description;
+    };
+
     return NoMediaStream;
 
   })();
