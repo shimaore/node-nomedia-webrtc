@@ -19,12 +19,10 @@
     "WebRTC"
   ],
   "devDependencies": {
-    "coffee-script": "~1.6.3",
-    "rtc-peer-connection": "~0.1.1",
-    "rtc-session-description": "0.0.1"
+    "coffee-script": "~1.6.3"
   },
   "dependencies": {
-    "rtc-peer-connection": "~0.1.1",
+    "rtc-peer-connection": "~0.1.11",
     "rtc-session-description": "0.0.1",
     "uuid": "~1.4.1"
   }
