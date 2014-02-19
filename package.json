@@ -1,6 +1,6 @@
 {
   "name": "nomedia-webrtc",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "WebRTC interface that provides fake media",
   "main": "index.js",
   "scripts": {
