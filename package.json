@@ -22,7 +22,7 @@
     "coffee-script": "~1.6.3"
   },
   "dependencies": {
-    "rtc-peer-connection": "~0.1.15",
+    "rtc-peer-connection": "~0.1.16",
     "rtc-session-description": "0.0.1",
     "uuid": "~1.4.1"
   }
